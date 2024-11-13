@@ -5,6 +5,156 @@
 	(uuid "4b7d4b65-214c-4cb2-b95e-3177d1d11c7a")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Silkscreen_Symbols:CE_Free"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "PCB"
+				(at -2.54 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "CE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Silkscrren_Symbols:CE-Logo_8.5x6mm_SilkScreen"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+		)
+		(symbol "Silkscreen_Symbols:Pb_Free"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "PCB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "Pb_Free"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Silkscrren_Symbols:Pb_Free_8.0x8.0mm_SilkScreen"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+		)
+		(symbol "Silkscreen_Symbols:WEEE"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "PCB"
+				(at -1.27 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "WEEE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Silkscrren_Symbols:WEEE-Logo_8.4x12mm_SilkScreen"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -418,7 +568,7 @@
 				)
 			)
 			(property "Value" "CAP_2u2_16V_0603"
-				(at 11.43 -71.12 0)
+				(at 7.62 -19.05 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -427,7 +577,7 @@
 				)
 			)
 			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-				(at 0 -67.31 0)
+				(at -3.81 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -436,7 +586,7 @@
 				)
 			)
 			(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf"
-				(at 30.48 -62.23 0)
+				(at 8.89 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -445,7 +595,7 @@
 				)
 			)
 			(property "Description" "CAP CER 2.2UF 16V X5R 0603"
-				(at 20.32 -59.69 0)
+				(at -1.27 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -462,7 +612,7 @@
 				)
 			)
 			(property "Manufacturer" "KEMET"
-				(at -8.89 -71.12 0)
+				(at -12.7 -19.05 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -471,7 +621,7 @@
 				)
 			)
 			(property "Manufacturer Part Number" "C0603C225K4PAC7867"
-				(at -10.16 -64.77 0)
+				(at -3.81 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -480,7 +630,7 @@
 				)
 			)
 			(property "Supplier 1" "DigiKey"
-				(at -15.24 -73.66 0)
+				(at -19.05 -21.59 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -489,7 +639,7 @@
 				)
 			)
 			(property "Supplier 1 Part Number" "399-C0603C225K4PAC7867CT-ND"
-				(at 12.7 -73.66 0)
+				(at 8.89 -21.59 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4027,6 +4177,20 @@
 					(hide yes)
 				)
 			)
+			(symbol "Solder_Jumper_3_NC_1_0_1"
+				(arc
+					(start 0 0)
+					(mid 0.5261 1.27)
+					(end 0 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
 			(symbol "Solder_Jumper_3_NC_1_1_1"
 				(pin unspecified line
 					(at -3.81 2.54 0)
@@ -4547,6 +4711,186 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ffe19328-0f2a-4590-8152-3d5195ed6c6f")
+	)
+	(no_connect
+		(at 71.12 34.29)
+		(uuid "03823428-220b-488e-8850-65c4c2fe1ec7")
+	)
+	(no_connect
+		(at 71.12 67.31)
+		(uuid "03963961-3696-4c5f-8ef4-0002d85bf994")
+	)
+	(no_connect
+		(at 146.05 168.91)
+		(uuid "078aa848-aeaf-4dfc-8379-504d3b7c0a6b")
+	)
+	(no_connect
+		(at 254 68.58)
+		(uuid "07f63a56-6d3f-4e0c-875a-bd3aeaaf8d15")
+	)
+	(no_connect
+		(at 107.95 146.05)
+		(uuid "0a560888-2dce-4683-9cc3-b7f5d1353846")
+	)
+	(no_connect
+		(at 107.95 171.45)
+		(uuid "1898f947-1545-4d1f-aa74-ad99225ccf79")
+	)
+	(no_connect
+		(at 30.48 85.09)
+		(uuid "18f799ac-8e02-4ff8-89bb-9ca8a6b9736f")
+	)
+	(no_connect
+		(at 30.48 39.37)
+		(uuid "1a658d19-6ca7-4ff7-8c3c-f39bc3a551fb")
+	)
+	(no_connect
+		(at 71.12 49.53)
+		(uuid "2c7f64cc-dfd4-4476-803f-b4f7a603f5ed")
+	)
+	(no_connect
+		(at 107.95 161.29)
+		(uuid "2f098adb-55a7-4bb8-94dd-ead1efad019b")
+	)
+	(no_connect
+		(at 30.48 90.17)
+		(uuid "3d472750-df71-4e57-8da3-7abeeef53afe")
+	)
+	(no_connect
+		(at 107.95 153.67)
+		(uuid "4935c155-41f5-47c5-8382-59bb97a91b99")
+	)
+	(no_connect
+		(at 71.12 39.37)
+		(uuid "4c107dfc-2659-421d-bc45-7a1278c842a7")
+	)
+	(no_connect
+		(at 71.12 36.83)
+		(uuid "5156acdf-85af-4f17-b4c3-7770fbee0934")
+	)
+	(no_connect
+		(at 107.95 115.57)
+		(uuid "615b049a-b236-4e66-a9b1-56435c08dd17")
+	)
+	(no_connect
+		(at 71.12 21.59)
+		(uuid "71dd7ded-81f6-4abf-9628-6500d92bde16")
+	)
+	(no_connect
+		(at 30.48 80.01)
+		(uuid "72b2101f-8c94-4dbb-b23b-b08aa7eb4605")
+	)
+	(no_connect
+		(at 30.48 29.21)
+		(uuid "73f0af86-7103-479b-bf4f-7d5a1991447a")
+	)
+	(no_connect
+		(at 146.05 123.19)
+		(uuid "780db72b-befb-4413-885b-b208e7305091")
+	)
+	(no_connect
+		(at 30.48 31.75)
+		(uuid "7b4ec7a9-6e9b-44cd-b190-260439a034e9")
+	)
+	(no_connect
+		(at 30.48 92.71)
+		(uuid "7e61632d-3395-4a6f-b0f4-a91ccf5ea733")
+	)
+	(no_connect
+		(at 146.05 113.03)
+		(uuid "84e006c4-9233-4c26-b5c3-c9f666db374c")
+	)
+	(no_connect
+		(at 30.48 34.29)
+		(uuid "86ceb444-f843-4dd7-a15c-ce4a39747ad4")
+	)
+	(no_connect
+		(at 30.48 95.25)
+		(uuid "90261f80-0515-4eec-8b21-9d81d11e282d")
+	)
+	(no_connect
+		(at 30.48 77.47)
+		(uuid "94a85041-f0be-415b-92cf-d63a5f528581")
+	)
+	(no_connect
+		(at 107.95 113.03)
+		(uuid "9614a5aa-2e5c-4e6c-aa6d-c02e1976ff98")
+	)
+	(no_connect
+		(at 30.48 97.79)
+		(uuid "9797a231-40f2-4cad-8044-b8ee7c0773ee")
+	)
+	(no_connect
+		(at 30.48 36.83)
+		(uuid "a6616b1c-01d1-4bc6-99c3-e61dd358b9de")
+	)
+	(no_connect
+		(at 30.48 82.55)
+		(uuid "ac048ca7-baa8-4a8a-b2c6-9b800c05772c")
+	)
+	(no_connect
+		(at 30.48 26.67)
+		(uuid "b06301b5-f66a-41bc-bcdf-23419f509291")
+	)
+	(no_connect
+		(at 107.95 143.51)
+		(uuid "b3f853e4-908c-4617-b216-c47add486be8")
+	)
+	(no_connect
+		(at 71.12 74.93)
+		(uuid "b493d3cc-7762-4526-bf55-e4a80fbd8a47")
+	)
+	(no_connect
+		(at 30.48 24.13)
+		(uuid "c44043df-f735-4d95-b1ae-3723ffbd136b")
+	)
+	(no_connect
+		(at 71.12 24.13)
+		(uuid "cec199fb-d063-495c-96af-f938dc812aa0")
+	)
+	(no_connect
+		(at 107.95 140.97)
+		(uuid "d0cc712a-954b-4512-a5a5-b4ed29c10dce")
+	)
+	(no_connect
+		(at 146.05 118.11)
+		(uuid "d734bf10-1dfa-44cf-a030-b02a8ea2faf2")
+	)
+	(no_connect
+		(at 71.12 52.07)
+		(uuid "d82b6a93-1681-43e2-8dd7-8ba3d9fff29b")
+	)
+	(no_connect
+		(at 107.95 151.13)
+		(uuid "dbe340f4-290e-4806-8464-4b56810ac923")
+	)
+	(no_connect
+		(at 107.95 156.21)
+		(uuid "dc8eaa38-6067-4bd6-8941-7be7feff4d35")
+	)
+	(no_connect
+		(at 107.95 173.99)
+		(uuid "dd414c1e-9fa0-4b66-905b-53ec0e20d602")
+	)
+	(no_connect
+		(at 30.48 21.59)
+		(uuid "e8eafa1d-3d39-4561-acb5-ab22d423f270")
+	)
+	(no_connect
+		(at 30.48 100.33)
+		(uuid "eab15370-b6d5-4b73-aa70-687192ae6d43")
+	)
+	(no_connect
+		(at 30.48 44.45)
+		(uuid "eabab19e-394f-42c0-b999-27141c769b18")
+	)
+	(no_connect
+		(at 107.95 158.75)
+		(uuid "f330c27d-cdf7-4459-89e9-6bcb0af1648b")
+	)
+	(no_connect
+		(at 107.95 107.95)
+		(uuid "fc23e302-f7c6-4f53-b859-9b0e5a36a452")
 	)
 	(bus_entry
 		(at 151.13 7.62)
@@ -5909,16 +6253,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 111.76) (xy 189.23 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b09e796f-1708-4bef-b8ea-aed5c6deef77")
-	)
-	(wire
-		(pts
 			(xy 194.31 87.63) (xy 194.31 86.36)
 		)
 		(stroke
@@ -6269,16 +6603,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 76.2) (xy 143.51 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee95ec11-ee3c-456e-aa41-e9e0d3db60c5")
-	)
-	(wire
-		(pts
 			(xy 247.65 90.17) (xy 247.65 86.36)
 		)
 		(stroke
@@ -6480,7 +6804,7 @@
 		)
 		(uuid "0a0f8f80-474d-4b47-a1f3-5d0f793249e6")
 	)
-	(label "TD1"
+	(label "TDI"
 		(at 19.05 62.23 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8634,7 +8958,7 @@
 		(dnp no)
 		(uuid "4a008a36-0a20-4f82-9363-e046ad0753e8")
 		(property "Reference" "R5"
-			(at 161.29 172.72 0)
+			(at 161.29 164.338 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8678,7 +9002,7 @@
 			)
 		)
 		(property "Display Value" "22R"
-			(at 161.29 170.18 0)
+			(at 161.29 168.656 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8815,6 +9139,70 @@
 			(project "CW312T_STM32F"
 				(path "/4b7d4b65-214c-4cb2-b95e-3177d1d11c7a"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Silkscreen_Symbols:WEEE")
+		(at -16.51 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ac1e2d2-9c26-453a-9388-33ebb07e39e1")
+		(property "Reference" "PCB2"
+			(at -15.24 171.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "WEEE"
+			(at -15.24 173.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Silkscrren_Symbols:WEEE-Logo_8.4x12mm_SilkScreen"
+			(at -16.51 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -16.51 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -16.51 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/4b7d4b65-214c-4cb2-b95e-3177d1d11c7a"
+					(reference "PCB2")
 					(unit 1)
 				)
 			)
@@ -10534,7 +10922,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ab36ed0c-7399-43bc-bc50-524af151f8e3")
-		(property "Reference" "JP4"
+		(property "Reference" "JP3"
 			(at 189.484 110.49 0)
 			(effects
 				(font
@@ -10654,7 +11042,7 @@
 		(instances
 			(project ""
 				(path "/4b7d4b65-214c-4cb2-b95e-3177d1d11c7a"
-					(reference "JP4")
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -10925,6 +11313,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Silkscreen_Symbols:CE_Free")
+		(at -16.51 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b193c5b6-0a5d-41e2-8823-3654253c6b9d")
+		(property "Reference" "PCB1"
+			(at -19.05 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "CE"
+			(at -15.24 168.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Silkscrren_Symbols:CE-Logo_8.5x6mm_SilkScreen"
+			(at -16.51 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -16.51 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -16.51 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/4b7d4b65-214c-4cb2-b95e-3177d1d11c7a"
+					(reference "PCB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 104.14 184.15 0)
 		(unit 1)
@@ -11131,7 +11583,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ce91fe5d-9698-4c63-a1ca-c29eeba50449")
-		(property "Reference" "JP3"
+		(property "Reference" "JP4"
 			(at 149.098 85.852 0)
 			(effects
 				(font
@@ -11248,7 +11700,7 @@
 		(instances
 			(project "CW312T_STM32F"
 				(path "/4b7d4b65-214c-4cb2-b95e-3177d1d11c7a"
-					(reference "JP3")
+					(reference "JP4")
 					(unit 1)
 				)
 			)
@@ -11523,6 +11975,69 @@
 			(project "CW312T_STM32F"
 				(path "/4b7d4b65-214c-4cb2-b95e-3177d1d11c7a"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Silkscreen_Symbols:Pb_Free")
+		(at -16.51 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "f465bf5e-08f8-4a38-923d-d88f4de3bd23")
+		(property "Reference" "PCB3"
+			(at -15.24 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Pb_Free"
+			(at -15.24 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Silkscrren_Symbols:Pb_Free_8.0x8.0mm_SilkScreen"
+			(at -16.51 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -16.51 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -16.51 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/4b7d4b65-214c-4cb2-b95e-3177d1d11c7a"
+					(reference "PCB3")
 					(unit 1)
 				)
 			)
