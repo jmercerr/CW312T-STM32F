@@ -15,16 +15,14 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Value" "CE"
+			(property "Value" "CE Symbol"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Footprint" "Silkscrren_Symbols:CE-Logo_8.5x6mm_SilkScreen"
@@ -65,16 +63,14 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Value" "Pb_Free"
+			(property "Value" "Pb_Free Symbol"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Footprint" "Silkscrren_Symbols:Pb_Free_8.0x8.0mm_SilkScreen"
@@ -163,16 +159,14 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Value" "WEEE"
+			(property "Value" "WEEE SYMBOL"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Footprint" "Silkscrren_Symbols:WEEE-Logo_5.6x8mm_SilkScreen"
